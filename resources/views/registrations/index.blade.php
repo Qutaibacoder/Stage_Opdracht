@@ -26,5 +26,5 @@
             @endif
         </ul>
     </div>
-    <a href="/registration/create" class="block mt-4 text-blue-500 hover:underline">Create Event</a>
+    <a href="/register" class="block mt-4 text-blue-500 hover:underline">Create registration</a>
 </x-app>

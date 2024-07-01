@@ -21,9 +21,9 @@ Route::get('/events/{event}/delete', [EventController::class, 'destroy']);
 
 Route::get('registrations', [RegistrationController::class, 'index'])->name('registrations.index');
 
-Route::get('registration/create', [RegistrationController::class, 'create']);
 
-Route::post('registration/store', [RegistrationController::class, 'store']);
+Route::get('register', [RegistrationController::class, 'showRegistrationForm'])->name('register');
+Route::post('register', [RegistrationController::class, 'register']);
 
 
 
