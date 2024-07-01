@@ -71,4 +71,9 @@ class RegistrationController extends Controller
         return view('auth.register', ['events' => $events]);
     }
 
+    public function Home()
+    {
+        return view('home_page');
+    }
+
 }

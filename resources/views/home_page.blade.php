@@ -35,6 +35,7 @@
                 align-items: center;
                 height: 90vh;
                 text-align: center;
+                padding: 0 20px;
             }
             .icon {
                 font-size: 100px;
@@ -47,18 +48,23 @@
             p {
                 font-size: 1.2em;
                 color: #555;
+                max-width: 600px;
             }
         </style>
     </head>
     <body>
 
     <div class="content">
-        <i class="fas fa-home icon"></i>
-        <h1>Welkom op mijn homepage</h1>
-        <p>Dit is een eenvoudige homepage zonder navigatiebalk, met een icoon en tekst.</p>
+        <i class="fas fa-calendar-alt icon"></i>
+        <h1>Ontdek onze evenementen</h1>
+        <p>
+            Welkom op onze homepage! Bij ons draait alles om inspirerende evenementen die uw leven verrijken.
+            Van informatieve workshops tot gezellige bijeenkomsten en grootse vieringen, wij bieden een divers
+            programma dat geschikt is voor iedereen. Bekijk onze agenda, schrijf u in voor uw favoriete evenementen,
+            en maak deel uit van onze gemeenschap. Samen creëren we bijzondere momenten en waardevolle herinneringen.
+            Neem gerust contact met ons op voor meer informatie. We kijken ernaar uit om u te verwelkomen!
+        </p>
     </div>
     </body>
     </html>
-
-
 </x-app>

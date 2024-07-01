@@ -25,5 +25,8 @@ Route::get('registrations', [RegistrationController::class, 'index'])->name('reg
 Route::get('register', [RegistrationController::class, 'showRegistrationForm'])->name('register');
 Route::post('register', [RegistrationController::class, 'register']);
 
+Route::get('home_page', [RegistrationController::class, 'Home'])->name('home_page');
+
+
 
 
